@@ -1,0 +1,13 @@
+{
+    "manifest_version": 2,
+    "name": "Click Logger - elements",
+    "version": "1.0",
+    "description": "Logs clicks on page elements",
+    "permissions": ["*://*/*"],
+    "content_scripts": [
+      {
+        "matches": ["*://*/*"],
+        "js": ["content.js"]
+      }
+    ]
+  }
